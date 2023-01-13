@@ -11,6 +11,7 @@ applications:
   random-route: true  # for development only
   path: gen/srv
   memory: 256M
+  instances: 1
   command: npm run start
   buildpacks:
       - nodejs_buildpack
