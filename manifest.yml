@@ -12,5 +12,5 @@ applications:
   path: gen/srv
   memory: 256M
   command: npm run start
-  buildpack: nodejs_buildpack
-
+  buildpacks:
+      - nodejs_buildpack
